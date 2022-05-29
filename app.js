@@ -2,13 +2,6 @@ import { extractEnteredNumberValues } from './src/parser.js';
 import { calculateResult } from './src/math.js';
 import { generateResultText, outputResult } from './src/output.js';
 
-import {
-  validateStringNotEmpty,
-  validateNumber,
-} from './src/util/validation.js';
-import { add } from './src/math.js';
-import { transformToNumber } from './src/util/numbers.js';
-
 const form = document.querySelector('form');
 const output = document.getElementById('result');
 
