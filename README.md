@@ -19,13 +19,13 @@ Simple calculator demo to practice on Unit Testing with native JavaScript projec
   # install dependencies
   $ npm install
 
-  # serve with hot reload at localhost:3000
+  # serve with hot reload at 127.0.0.1:8080
   $ npm start
 
   # run unit testing just for once
   $ npm test
 
-  # serve unit testing with hot reload at 127.0.0.1:8080/
+  # serve unit testing with hot reload
   $ npm run test:watch
 
 ```
